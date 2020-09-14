@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  
+  move = nil
   if 
     
   else

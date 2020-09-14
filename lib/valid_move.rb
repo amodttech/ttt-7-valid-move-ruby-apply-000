@@ -1,4 +1,5 @@
 def valid_move?(board, index)
+  
   if 
     
   else
@@ -7,10 +8,10 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  move = nil
+  taken = nil
   if (board[index] == " " || board[index] == "" || board[index] == nil)
-    move = false
+    taken = false
   else
-    move = true
+    taken = true
   end
 end
